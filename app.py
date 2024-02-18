@@ -22,7 +22,7 @@ name = str(input("单词本名称："))                               # 创建�
 
 try:
     file_class = ".json"                        # 扩展名
-    file_name = name + 'json/' + '.kirisame.pyword'       # 文件名
+    file_name = 'json/' + name + '.kirisame.pyword'       # 文件名
     path = os.getcwd()
     a_path = os.path.join(path, file_name + file_class)
     origin_file = open(a_path, 'r')             # 创建单词本
