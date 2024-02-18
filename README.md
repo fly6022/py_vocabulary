@@ -7,12 +7,17 @@ Python 快速（查询/整理）单词，数据库基于有道词典。
 - 输入查词
 - 查询输入单词的相关内容
 - 批量录入单词到生词本
+- 生成csv文件以便导入Anki
 
 ## 使用
 
 #### Windows
 
 在 CMD 中运行，并授予管理员权限。
+
+#### Linux
+
+在 Terminal 中运行，并授予读写权限。
 
 ### 参数
 
@@ -26,6 +31,7 @@ key_1 + [*vars]
 |         ``-a``         | 查询输入单词的相关内容（详细） |
 |         ``-b``         |    将单词相关内容写入单词本    |
 | ``filename.txt`` ``-b`` |      批量添加单词到单词本      |
+| ``filename.json`` ``-b`` |      生成csv文件     |
 
 ### 生词本
 
@@ -60,8 +66,8 @@ adj. 相互矛盾的，对立的；好反驳的，爱争辩的; n. 矛盾命题
 # -*- coding: utf-8 -*-
 # @name   : py_word/app.py
 # @author : fly6022
-# @date   : 2024/2/9
+# @date   : 2024/2/19
 # @Email  : i@fly6022.fun
-# @version: 2.0.0
+# @version: 2.1.0
 # @license: BSD-3-Clause
 ```
